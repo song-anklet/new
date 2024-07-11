@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Redirection</title>
+    <script type="text/javascript">
+        // List of paths to redirect
+        var redirectPaths = ['/coaching-motywacyjny/', '/kontakt/', '/coaching-motywacyjny']; // make sure these paths are lowercase
+        var currentPath = window.location.pathname.toLowerCase();
+
+        if (redirectPaths.includes(currentPath)) {
+            window.location.href = 'https://www.sylwiagruchala.com.pl/'; // Redirect destination
+        } else {
+            document.write('Page not found. Return to <a href="https://www.sylwiagruchala.com.pl/">Homepage</a>.');
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
