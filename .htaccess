@@ -1,8 +1,0 @@
-```apache
-RewriteEngine On
-RewriteBase /
-
-# Redirect specific pages to the homepage
-RewriteRule ^coaching-motywacyjny/?$ https://www.sylwiagruchala.com.pl/ [R=301,L]
-RewriteRule ^kontakt/?$ https://www.sylwiagruchala.com.pl/ [R=301,L]
-```
